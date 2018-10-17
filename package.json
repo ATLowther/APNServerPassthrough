@@ -1,0 +1,16 @@
+{
+  "name": "apnserverpassthrough",
+  "version": "1.0.0",
+  "description": "Receive a payload from a client and pass through data as a push notification via APNS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "express": "^4.16.4"
+  }
+}
